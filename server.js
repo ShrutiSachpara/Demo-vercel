@@ -27,5 +27,5 @@ app.use(require("./app/helper/error").handleJoiErrors);
 app.use(require("./app/helper/error").handleErrors);
 
 app.listen(port, () => {
-    logger.info(`Server is running.. :${port}`);
+    logger.info(`Server running on.. :${port}`);
 });
